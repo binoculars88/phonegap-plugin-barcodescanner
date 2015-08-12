@@ -589,8 +589,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
     if (getIntent() == null) {
       resultDurationMS = DEFAULT_INTENT_RESULT_DURATION_MS;
     } else {
-      resultDurationMS = getIntent().getLongExtra(Intents.Scan.RESULT_DISPLAY_DURATION_MS,
-                                                  DEFAULT_INTENT_RESULT_DURATION_MS);
+      resultDurationMS = DEFAULT_INTENT_RESULT_DURATION_MS;
     }
 
     // Since this message will only be shown for a second, just tell the user what kind of
