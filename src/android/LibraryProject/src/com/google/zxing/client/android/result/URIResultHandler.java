@@ -84,7 +84,7 @@ public final class URIResultHandler extends ResultHandler {
 
   @Override
   public int getDisplayTitle() {
-    return fakeR.getId("string", "result_uri");
+    return fakeR.getId("string", "result_text");
   }
 
   @Override
