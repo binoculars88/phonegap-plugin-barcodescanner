@@ -91,8 +91,8 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 
   private static final String TAG = CaptureActivity.class.getSimpleName();
 
-  private static final long DEFAULT_INTENT_RESULT_DURATION_MS = 15L;
-  private static final long BULK_MODE_SCAN_DELAY_MS = 10L;
+  private static final long DEFAULT_INTENT_RESULT_DURATION_MS = 150000L;
+  private static final long BULK_MODE_SCAN_DELAY_MS = 100000L;
 
   private static final String PACKAGE_NAME = "com.google.zxing.client.android";
   private static final String PRODUCT_SEARCH_URL_PREFIX = "http://www.google";
